@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ABUNDANT IMPORTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="LOGO.png" alt="ABUNDANT IMPORTS Logo">
+            <h1 class="site-title">ABUNDANT IMPORTS</h1>
+        </div>
+        <nav class="main-navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-content-wrapper">
+            <h2 class="section-title">Connect With Us</h2>
+            <p class="contact-intro">We're eager to assist you with your inquiries. Please fill out the form below or reach out using the provided contact details.</p>
+
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="button primary-button">Send Message</button>
+                    <p id="formMessage" class="success-message"></p>
+                </form>
+            </div>
+
+            <div class="contact-info-container">
+                <h3 class="subsection-title">Our Location & Contact</h3>
+                <p class="contact-detail"><strong>Address:</strong> Kahawa Wendani, Nairobi, Kenya</p>
+                <p class="contact-detail"><strong>Phone:</strong> +254797889739</p>
+                <p class="contact-detail"><strong>Email:</strong> info@abundantimports.com</p>
+                </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 ABUNDANT IMPORTS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
